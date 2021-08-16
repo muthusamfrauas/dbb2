@@ -2,6 +2,6 @@
        PROGRAM-ID. HELLO.                                               00020002
       / * simple hello world program                                    00030003
        PROCEDURE DIVISION.                                              00040001
-           DISPLAY 'Hello world added now jenk!'.                           
+           DISPLAY 'Hello world added jenk!'.                           
            STOP RUN.                                                    00060001
       
