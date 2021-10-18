@@ -19,7 +19,7 @@ run.copy(new CopyToHFS().ddName("SYSOUT").file(new File("${sourceDir}/hello_cbss
 
 def rc = run.execute()
 
-if (rc = 0)
+if (rc == 0)
     println("Run Successful!  RC=$rc")
 else
     println("Run Failed!  RC=$rc")
