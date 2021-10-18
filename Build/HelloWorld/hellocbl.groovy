@@ -2,7 +2,7 @@ import com.ibm.dbb.build.*
 
 // Change the following variables to match your system
 hlq        = "VASUKI"
-sourceDir  = "/u/VASUKI/jenkins2/workspace/ProjGitcp/Build/HelloWorld"
+sourceDir  = "/u/VASUKI/jenkins/workspace/Checkout_SCM/Build/HelloWorld"
 compilerDS = "IGY630.SIGYCOMP"
 
 println("Creating ${hlq}.COBOL. . .")
